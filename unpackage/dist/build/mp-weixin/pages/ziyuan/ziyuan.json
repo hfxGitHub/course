@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "hx-navbar": "/components/hx-navbar/hx-navbar",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body"
+  }
+}

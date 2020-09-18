@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/gongneng/index",
+    "pages/course/addcourse",
+    "pages/qiandao/qiandao",
+    "pages/ziyuan/ziyuan",
+    "pages/ziyuan/movie",
+    "pages/kejian/PPT",
+    "pages/student/students",
+    "pages/homeWork/index",
+    "pages/homeWork/doHomeWork",
+    "pages/qiandao/signDetail",
+    "pages/homeWork/addHomeWork",
+    "pages/user/center/center",
+    "pages/user/register/register",
+    "pages/kejian/addPPT"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F0F0F0",
+    "navigationStyle": "custom",
+    "backgroundColor": "rgb(28,224,235)"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "RGB(255,0,255)",
+    "borderStyle": "black",
+    "backgroundColor": "rgb(28,224,235)",
+    "fontSize": "11px",
+    "spacing": "5px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/tab-home.png",
+        "selectedIconPath": "static/tabbar/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gongneng/index",
+        "iconPath": "static/tabbar/order.png",
+        "selectedIconPath": "static/tabbar/order-current.png",
+        "text": "功能"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取用户位置用于签到"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap99.json"
+}

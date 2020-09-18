@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "微课程",
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "w-button": "/components/watch-login/watch-button"
+  }
+}

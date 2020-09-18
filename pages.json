@@ -1,0 +1,117 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "欢迎使用",
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "微课程",
+				"app-plus": {
+					"scrollIndicator": "none"
+					//"enablePullDownRefresh": true
+				}
+			}
+		}, {
+			"path": "pages/gongneng/index",
+			"style": {}
+
+		}, {
+			"path": "pages/course/addcourse",
+			"style": {}
+
+		}, {
+			"path": "pages/qiandao/qiandao",
+			"style": {}
+
+		}, {
+			"path": "pages/ziyuan/ziyuan",
+			"style": {}
+
+		}, {
+			"path": "pages/ziyuan/movie",
+			"style": {}
+
+		}, {
+			"path": "pages/kejian/PPT",
+			"style": {}
+
+		}, {
+			"path": "pages/student/students",
+			"style": {}
+
+		}, {
+			"path": "pages/homeWork/index",
+			"style": {}
+
+		}, {
+			"path": "pages/homeWork/doHomeWork",
+			"style": {}
+
+		}, {
+			"path": "pages/qiandao/signDetail",
+			"style": {}
+
+		}, {
+			"path": "pages/homeWork/addHomeWork",
+			"style": {}
+		}, {
+			"path": "pages/user/center/center",
+			"style": {}
+		}, {
+			"path": "pages/user/register/register",
+			"style": {}
+		}, {
+			"path": "pages/kejian/addPPT",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F0F0F0",
+		"navigationStyle": "custom",
+		"backgroundColor": "rgb(28,224,235)"
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "RGB(255,0,255)",
+		"borderStyle": "black",
+		"backgroundColor": "rgb(28,224,235)",
+		"fontSize": "11px",
+		"spacing": "5px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/tab-home.png",
+				"selectedIconPath": "static/tabbar/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/gongneng/index",
+				"iconPath": "static/tabbar/order.png",
+				"selectedIconPath": "static/tabbar/order-current.png",
+				"text": "功能"
+			}
+			// {
+			// 	"pagePath": "pages/user/center/center",
+			// 	"iconPath": "static/tabbar/tab-my.png",
+			// 	"selectedIconPath": "static/tabbar/tab-my-current.png",
+			// 	"text": "个人中心"
+			// }
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "test", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
